@@ -836,6 +836,25 @@ h5, h6 {
         width: 70%;
     }
 }
+@media all and (max-width:1000px) {
+    img.kanan {
+        display: inline-block; 
+        position: relative;
+        /* size: cover;  */
+        width: 100%;
+        align-content: center;
+        margin: 10px 0 10px 0;
+    }
+    .gbrdanDesk {
+        text-align: center;
+        margin: 3% 15px 0 -20px;
+        font-size: large;
+        font-family: Inter;
+    }
+    .signuphome {
+        width: 70%;
+    }
+}
 *, *:before, *:after {
     box-sizing: inherit;
 }
@@ -862,8 +881,6 @@ h5, h6 {
     margin-right: auto;
     padding: 3px 4px 3px 8px;
     cursor: pointer;
-    /* margin-left: 0;
-    margin-right: 80%; */
 }
 @media screen and (max-width: 680px) {
     .kolomgbr {
