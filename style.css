@@ -840,7 +840,6 @@ h5, h6 {
     img.kanan {
         display: inline-block; 
         position: relative;
-        /* size: cover;  */
         width: 100%;
         align-content: center;
         margin: 10px 0 10px 0;
