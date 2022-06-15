@@ -225,7 +225,7 @@ html {
         margin-right: auto;
     }
 }
-@media all and (max-width:1000px) {
+@media all and (max-width:1200px) {
     .button {
         font-size: 15px;
         padding: 10px 20px;
