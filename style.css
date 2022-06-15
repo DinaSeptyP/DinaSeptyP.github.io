@@ -225,6 +225,33 @@ html {
         margin-right: auto;
     }
 }
+@media all and (max-width:1000px) {
+    .button {
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+    .emailinput {
+        display: none !important;
+    }
+    .homesignup {
+        display: none !important;
+    }
+    .homesignup2 {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        height: 44px;
+        line-height: 50px;
+        background-color: #4B5330;
+        color: #E7E5D9;
+        border: none;
+        width: 60px;
+        padding: 0 6px;
+        cursor: pointer;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 /* buat login */
 .headerlogin {
     height: 100vh;
@@ -276,6 +303,17 @@ p.message a {
     color: #4B5330;
 }
 @media all and (max-width:680px) {
+    .headerlogin {
+        position: relative;
+        background-image : url(bg\ login.png);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center center; 
+        max-width: 100%;
+    }
+}
+@media all and (max-width:1000px) {
     .headerlogin {
         position: relative;
         background-image : url(bg\ login.png);
@@ -540,6 +578,17 @@ p.message2 a{
         max-width: 100%;
     }
 }
+@media all and (max-width:1000px) {
+    .headersignup {
+        position: relative;
+        background-image : url(bg\ login.png);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center center; 
+        max-width: 100%;
+    }
+}
 
 /* Modal background */
 .modal2 {
@@ -684,11 +733,11 @@ h5, h6 {
     text-align: center;
     font-size: 15px;
 }
-@media all and (max-width:1000px) {
+@media all and (max-width:900px) {
     img.kanan {
         display: inline-block; 
         position: relative;
-        size: cover; 
+        /* size: cover;  */
         width: 100%;
         align-content: center;
         margin: 10px 0 10px 0;
@@ -707,6 +756,9 @@ h5, h6 {
     }
     .back a {
         font-size: 20px;
+    }
+    .signuphome {
+        width: 70%;
     }
 }
 *, *:before, *:after {
@@ -732,15 +784,15 @@ h5, h6 {
 }
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 20%;
+    border-radius: 0%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 60%;
 }
 .card2 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  border-radius: 20%;
+  border-radius: 0%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -750,6 +802,9 @@ h5, h6 {
     padding: 0 16px;
     text-align: center;
     font-family: Inter;
+}
+.deskapp {
+    font-size: small;
 }
 .deskAtas::after, .kumpulangbr::after {
     content: "";
