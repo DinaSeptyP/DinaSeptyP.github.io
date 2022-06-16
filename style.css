@@ -897,9 +897,10 @@ h6 {
     padding: 3px 4px 3px 8px;
     cursor: pointer;
 }
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 1000px) {
     .kolomgbr {
-        width: 96.5%;
+        width: 95%;
+        height: 50%;
         display: block;
     }
     .kumpulangbr {
@@ -907,9 +908,58 @@ h6 {
         margin-right: auto;
     }
     .kolomgbr2 {
-        width: 96.5%;
+        width: 95%;
+        height: 50%;
         display: block;
     }
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 0%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
+    .card2 {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 0%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
+}
+@media screen and (max-width: 680px) {
+    .kolomgbr {
+        width: 95%;
+        display: block;
+    }
+    .kumpulangbr {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .kolomgbr2 {
+        width: 95%;
+        display: block;
+    }
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 0%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        align-content: center;
+    }
+    .card2 {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 0%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        align-content: center;
+      }
 }
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -1023,8 +1073,8 @@ h6 {
     clear: both;
     display: table;
     box-sizing: border-box;
-    margin-left: 17%;
-    margin-right: 17%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .kolomgbr3 {
     margin-left: auto;
