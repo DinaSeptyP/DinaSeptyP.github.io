@@ -737,7 +737,7 @@ hr {
 /* Body */
 img.kanan {
     float: right;
-    margin: 5px 10%;
+    margin: 5px 5% 5px 2%;
     width: 35%;
     border-radius: 0%;
 }
@@ -756,6 +756,12 @@ p {
     font-size: 20px;
     font-family: Inter;
 }
+p.deskkiri {
+    text-align: center;
+    font-size: 20px;
+    font-family: Inter;
+    padding: 0 10px 0 30px;
+}
 h3 {
     text-align: center;
     margin: 10% 0px 5% 7%;
@@ -766,12 +772,16 @@ h4 {
     text-align: center;
     font-family: Inter;
     font-size: 25px;
-    margin-left: 60px;
 }
-h5, h6 {
+h5 {
     text-align: center;
     font-family: Inter;
     font-size: 25px;
+}
+h6 {
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
 }
 .gbrdanDesk {
     text-align: center;
@@ -866,6 +876,12 @@ h5, h6 {
     margin-bottom: 16px;
     padding: 0 4px;
 }
+.kolomgbr2 {
+    float: left;
+    width: 47%;
+    margin-bottom: 16px;
+    padding: 0 4px;
+}
 .tombolapp {
     display: flex;
     align-items: center;
@@ -887,14 +903,19 @@ h5, h6 {
         display: block;
     }
     .kumpulangbr {
-        margin-left: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .kolomgbr2 {
+        width: 96.5%;
+        display: block;
     }
 }
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 0%;
     display: block;
-    margin-left: auto;
+    margin-left: 10%;
     margin-right: auto;
     width: 60%;
 }
@@ -902,9 +923,9 @@ h5, h6 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 0%;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
+  margin-left: 40%;
+  margin-right: 30%;
+  width: 60%;
 }
 .deskAtas {
     padding: 0 16px;
@@ -912,12 +933,102 @@ h5, h6 {
     font-family: Inter;
 }
 .deskapp {
-    font-size: small;
+    font-size: 18px;
 }
 .deskAtas::after, .kumpulangbr::after {
     content: "";
     clear: both;
     display: table;
+}
+.kumpulangbr3 {
+    margin-left: 30%;
+    margin-right: auto;
+    width: 90%;
+    align-content: center;
+}
+.kumpulangbr3 .kolomgbr3 {
+    display: flex;
+    flex-wrap: wrap;
+    /* float: left;
+    width: 32%;
+    margin-bottom: 16px;
+    padding: 0 4px;
+    margin-left: auto;
+    margin-right: auto; */
+}
+.kolomgbr3 .card3 {
+    width: 30%;
+    padding: 30px;
+}
+/* .isicard3 {
+    background-color: #000;
+} */
+.kolomgbr3 .gambarcard {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    padding-bottom: 0%;
+    align-content: center;
+}
+.gambarcard {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    padding-bottom: 0%;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    float: inherit;
+}
+.kolomgbr3 .deskAtas3 {
+    padding: 5px;
+}
+.deskAtas3 {
+    margin: 0;
+}
+@media screen and (max-width: 1400px) {
+    .kolomgbr3 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .kumpulangbr3 {
+        /* margin-left: auto;
+        margin-right: auto; */
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+/* 
+.card3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 0%;
+    display:block;
+    margin: 0%;
+    width: 30%;
+    align-content: center;
+    float: right;
+}
+.deskAtas3 {
+    padding: 0 16px;
+    text-align: center;
+    font-family: Inter;
+}
+.deskapp3 {
+    font-size: small;
+} */
+.deskAtas3, .kumpulangbr3, .deskAtas3::before, .kumpulangbr3::before, .deskAtas3::after, .kumpulangbr3::after {
+    content: "";
+    clear: both;
+    display: table;
+    box-sizing: border-box;
+    margin-left: 17%;
+    margin-right: 17%;
+}
+.kolomgbr3 {
+    margin-left: auto;
+    margin-right: auto;
 }
 .gambarAkhir {
     width: 70%;
