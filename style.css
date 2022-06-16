@@ -1043,8 +1043,8 @@ h6 {
         flex-wrap: wrap;
     }
     .kumpulangbr3 {
-        /* margin-left: auto;
-        margin-right: auto; */
+        margin-left: auto;
+        margin-right: auto;
         width: 100%;
         display: flex;
         flex-wrap: wrap;
