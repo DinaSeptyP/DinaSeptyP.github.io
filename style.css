@@ -86,7 +86,7 @@ html {
     -webkit-transform: translate(-50%, -50%);
     -moz-transform : translate(-50%, -50%);
     -o-transform : translate(-50%, -50%);
-    margin: 20px 10px;
+    margin: 0;
     text-align: center;
 }
 .tlsndiGbr-txt {
@@ -111,7 +111,7 @@ html {
     align-items: center;
     text-align: center;
     color: #4B5330;
-    padding: 1px 150px;
+    padding: 1px 120px;
 }
 .signuphome {
     position: relative;
@@ -193,6 +193,7 @@ html {
     }
     .tlsndiGbr {
         display: inline-block; 
+        block-size: 50%;
     }
     .tlsndiGbr-txt {
         font-size: 30px;
@@ -931,7 +932,7 @@ h6 {
 }
 @media screen and (max-width: 680px) {
     .kolomgbr {
-        width: 95%;
+        width: 90%;
         display: block;
     }
     .kumpulangbr {
@@ -939,7 +940,7 @@ h6 {
         margin-right: auto;
     }
     .kolomgbr2 {
-        width: 95%;
+        width: 90%;
         display: block;
     }
     .card {
