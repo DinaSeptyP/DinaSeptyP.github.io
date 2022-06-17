@@ -898,10 +898,10 @@ h6 {
     padding: 3px 4px 3px 8px;
     cursor: pointer;
 }
-@media screen and (max-width: 1000px) {
+/* @media screen and (max-width: 1100px) {
     .kolomgbr {
-        width: 95%;
-        height: 50%;
+        width: 90%;
+        height: auto;
         display: block;
     }
     .kumpulangbr {
@@ -909,8 +909,8 @@ h6 {
         margin-right: auto;
     }
     .kolomgbr2 {
-        width: 95%;
-        height: 50%;
+        width: 90%;
+        height: auto;
         display: block;
     }
     .card {
@@ -929,8 +929,8 @@ h6 {
         margin-right: auto;
         width: 60%;
     }
-}
-@media screen and (max-width: 680px) {
+} */
+/* @media screen and (max-width: 680px) {
     .kolomgbr {
         width: 90%;
         display: block;
@@ -961,7 +961,7 @@ h6 {
         width: 60%;
         align-content: center;
       }
-}
+} */
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 0%;
