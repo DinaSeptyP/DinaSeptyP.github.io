@@ -12,7 +12,7 @@ body {
     background-image: url(bg\ home.png);
     background-size: 1350px;
     background-attachment: scroll;
-    color: #4B5330;
+    background-color: #FEFAE0;
     background-repeat: no-repeat;
     background-position: center top; 
 }
@@ -859,9 +859,9 @@ h6 {
     img.kanan {
         display: inline-block; 
         position: relative;
-        width: 100%;
+        width: 60%;
         align-content: center;
-        margin: 10px 0 10px 0;
+        margin: 10px 20% 10px 20%;
     }
     .gbrdanDesk {
         text-align: center;
