@@ -130,7 +130,7 @@ html {
     align-content: center;
     border: #CCD5AE;
 }
-.homesignup {
+/* .homesignup {
     position: fixed;
     height: 44px;
     line-height: 50px;
@@ -142,7 +142,20 @@ html {
     width: 20%;
     padding: 0;
     cursor: pointer;
-  }
+} */
+.homesignup {
+position: fixed;
+height: 44px;
+line-height: 50px;
+right: 0;
+top: 320px;
+background-color: #4B5330;
+color: #E7E5D9;
+border: none;
+width: 20%;
+padding: 0;
+cursor: pointer;
+}
 .homesignup span {
     display: none !important;
 }

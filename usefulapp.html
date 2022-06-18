@@ -2,104 +2,344 @@
 <html>
     <head>
         <title>GoodviceMe</title>
-        <link href="style.css" type="text/css" rel="stylesheet" />
+        <!-- <link href="style.css" type="text/css" rel="stylesheet" /> -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
         <script src="script.js"></script>
     </head>
+
     <body> 
-        <header class="header" id="header">
+        <header class="headersleep" id="header" style="background-color: #CCD5AE; padding-bottom: 20px;";>
             <div class="iniHeader">
                 <h1 class="logo" id="logo"><a href="index.html">GoodviceMe</a></h1>  
-                <nav class="navigation">
-                    <a href="aboutus.html">About us</a>
-                    <a href="contact.html">Contact</a>
-                    <a style="font-weight: bolder; padding-left: 30px;" href="login.html">Login</a>
-                    <a style="font-weight: bolder; color: #E7E5D9; background-color: #4B5330; padding: 0px 3px" href="signup.html">SignUp</a>
+                <nav class="navigation" style="margin: 0 5px 0 20px; line-height: 20px;">
+                    <a href="aboutus.html">Notes</a>
+                    <a href="contact.html">Money</a>
+                    <a href="login.html">Sleep</a>
+                    <a href="signup.html">Usefull App</a>
+                    <a style="font-weight: bolder; color: #E7E5D9; background-color: #4B5330; padding: 0px 3px" href="#">Account</a>
                 </nav>
             </div>
         </header>
-        </section>
-        <br><br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br>
-               
-        <!-- <br>
-        <hr id="hr" size="20px" color="#283B72">
-        <br><br> -->
-        <!-- <div class="isi">
-            <h2 id="body1"> Sonumi </h2>
-            <p style="font-size: 25px;"> Rasionalisasi SNMPTN </p>
-            <br><br>
-            <div class="gbrdanDesk">
-                <img class="kanan" src="1.png"/>
-                <br>
-                <h3 id="tulisanDesk"> Sonumi adalah fitur online untuk menganalisis peluang lolos SNMPTN berdasarkan nilai raport, sertifikat, dan parameter lainnya. 
-                    Yakin nilaimu cukup buat lolos jurusan impianmu? Cek yuk! Sonumi akan membantu kalian cari peluang, loh!
-                </h3>
-            </div>
-            <br><br><br><br>
-            
-            <h4>Kenapa GoodviceMe?</h4>
-            <p>Yuk lihat ini!</p>
-            <br><br>
-            <div class="kumpulangbr">
-                <div class="kolomgbr">
-                    <div class="card">
-                        <img src="2.png" alt="Lorem ipsum" style="width: 100%;">
-                        <div class="deskAtas">
-                            <hr size="2px" color="#1d2d5a">
-                            <h6>MUDAH</h6>
-                            <p style="padding: 0 10px 0 10px;">Ga usah repot-repot, tinggal klik-klik buat isi data, Selesai deh!</p>
-                            <br><br>
-                        </div>
-                    </div>
-                </div>
-                <div class="kolomgbr">
-                    <div class="card">
-                        <img src="3.png" alt="Lorem ipsum" style="width: 100%;">
-                        <div class="deskAtas">
-                            <hr size="2px" color="#1d2d5a">
-                            <h6>GRATIS</h6>
-                            <p>Jangan khawatir, Sonumi gratis, loh! Hayo siapa yang ga suka gratis?</p>
-                            <br><br>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <br><br><br><br><br>
-            
-            <h4>Lolos SNMPTN</h4>
-            <p>Bersama Sonumi</p>
+        <div class="isi" style="background-color: #FEFAE0;">
             <br>
-            <img class="gambarAkhir" src="6.png" alt="grad">
-            <br><br><br>
-            <p style="font-weight: bold; font-size: 24px;">...mau gini?</p>
-            <button type="submit" class="back"><a href="#header">Login, yuk!</a></button>
-            <br><br><br><br><br>
+            <div class="container">
+                <div class="heading">
+                  <h1 style="font-weight: bolder; font-size: 25px; color:#3a4125">Rekomendasi Aplikasi Buatmu</h1>
+                </div>
+                <div class="row">
+                    <div class="card">
+                        <div class="card-header">
+                        <h1>React</h1>
+                        </div>
+                        <div class="card-body">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo mollitia tempore reiciendis, vel, sequi.
+                        </p>
+                        <a href="#" class="btn">Read more</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <h1>Vue</h1>
+                        </div>
+                        <div class="card-body">
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo mollitia tempore reiciendis, vel, sequi.
+                            </p>
+                            <a href="#" class="btn">Read more</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <h1>Angular</h1>
+                        </div>
+                        <div class="card-body">
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo mollitia tempore reiciendis, vel, sequi.
+                            </p>
+                            <a href="#" class="btn">Read more</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <h1>JQuery</h1>
+                        </div>
+                        <div class="card-body">
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo mollitia tempore reiciendis, vel, sequi.
+                            </p>
+                            <a href="#" class="btn">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card">
+                        <div class="card-header">
+                        <h1>React</h1>
+                        </div>
+                        <div class="card-body">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo mollitia tempore reiciendis, vel, sequi.
+                        </p>
+                        <a href="#" class="btn">Read more</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <h1>Vue</h1>
+                        </div>
+                        <div class="card-body">
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo mollitia tempore reiciendis, vel, sequi.
+                            </p>
+                            <a href="#" class="btn">Read more</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <h1>Angular</h1>
+                        </div>
+                        <div class="card-body">
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo mollitia tempore reiciendis, vel, sequi.
+                            </p>
+                            <a href="#" class="btn">Read more</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <h1>JQuery</h1>
+                        </div>
+                        <div class="card-body">
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo mollitia tempore reiciendis, vel, sequi.
+                            </p>
+                            <a href="#" class="btn">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card">
+                        <div class="card-header">
+                        <h1>React</h1>
+                        </div>
+                        <div class="card-body">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo mollitia tempore reiciendis, vel, sequi.
+                        </p>
+                        <a href="#" class="btn">Read more</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <h1>Vue</h1>
+                        </div>
+                        <div class="card-body">
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo mollitia tempore reiciendis, vel, sequi.
+                            </p>
+                            <a href="#" class="btn">Read more</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <h1>Angular</h1>
+                        </div>
+                        <div class="card-body">
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo mollitia tempore reiciendis, vel, sequi.
+                            </p>
+                            <a href="#" class="btn">Read more</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <h1>JQuery</h1>
+                        </div>
+                        <div class="card-body">
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo mollitia tempore reiciendis, vel, sequi.
+                            </p>
+                            <a href="#" class="btn">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        </div> -->
-        
         <footer id="footer">
             <div class="footer_copyright">
                 <span
                     class="footer" style="color: #4B5330;">
-                    <br><br>
-                    <span><p style="font-weight: bold; font-size: 20px;">GoodviceMe</p></span>
-                    <hr size="0.1px" color="#4B5330">
-                    <span><p>Copyright</p></span>
-                    <p> © 2022 Dina Resifa </p>
-                    <br><br>
+                    <span><p style="font-weight: bold; font-size: 16px;">GoodviceMe</p></span>
                 </span>
             </div>
         </footer>
     </body>
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Inter|Poppins);
+        * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        }
+
+        body {
+        background: #FEFAE0;
+        font-family: 'Inter';
+        }
+
+        .header {
+        height: 100vh;
+        background-color: #4B5330;
+        background-image: url(bg\ 1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center bottom; 
+        }
+        .header2 {
+        background-size: cover;
+        }
+        .iniHeader {
+            background-color: #CCD5AE;
+            padding: 15px 30px;
+            height: 50px;
+            color: #E7E5D9;
+            position: relative;
+            z-index: 1;
+        }
+
+        .logo a {
+            float: left;
+            font-size: 27px;
+            font-weight: bold;
+            line-height: 30px;
+            padding-left: 10px;
+            font-family: Inter;
+            color: #3a4125;
+            text-decoration: none;
+            margin-top: 5px;
+        }
+        .logo a:hover {
+            color: #7c8a50;
+            transition: ease 0.5s;
+        }
+        .navigation {
+            line-height: 40px;
+            float: right;
+            position: relative;
+            margin: 0 15px 0 50px;
+        }
+        .navigation a {
+            display: inline-block;
+            padding: 5px;
+            text-decoration: none;
+            color: #4B5330;
+            font-size: 17px;
+            cursor: pointer;
+            transition: all, 1s ease;
+            -webkit-transition: all, 1s ease;
+            -moz-transition: all, 1s ease;
+            -ms-transition: all, 1s ease;
+            -o-transition: all, 1s ease;
+        }
+        .navigation a:hover {
+            color: #7c8a50;
+        }
+
+        .container {
+        width: 90%;
+        margin: 50px auto;
+        }
+        .heading {
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 50px;
+        }
+
+        .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-flow: wrap;
+        }
+
+        .card {
+        width: 20%;
+        background: #CCD5AE;
+        border: 1px solid #ccc;
+        margin-bottom: 50px;
+        transition: 0.3s;
+        border-radius: 0;
+        padding: 0;
+        border-radius: 0%;
+        }
+        h1 {
+            font-size: medium;
+        }
+
+        .card-header {
+        text-align: center;
+        padding: 10px 10px;
+        background-color: #4B5330;
+        color: #E7E5D9;
+        border-radius: 0%;
+        }
+
+        .card-body {
+        padding: 20px 10px;
+        text-align: center;
+        font-size: 16px;
+        }
+
+        .card-body .btn {
+        display: block;
+        color: #E7E5D9;
+        text-align: center;
+        background-color: #4B5330;
+        margin-top: 30px;
+        text-decoration: none;
+        padding: 10px 5px 10px 5px;
+        border-radius: 0%;
+        margin-left: 45%;
+        width: 50%;
+        font-size: small;
+        }
+
+        .card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+        }
+        
+        .footer p {
+        text-align: center;
+        font-size: 15px;
+        position: sticky;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+}
+
+        @media screen and (max-width: 1000px) {
+        .card {
+            width: 40%;
+        }
+        }
+
+        @media screen and (max-width: 620px) {
+        .container {
+            width: 100%;
+        }
+
+        .heading {
+            padding: 20px;
+            font-size: 20px;
+        }
+
+        .card {
+            width: 80%;
+        }
+        }
+        
+
+    </style>
 </html>
