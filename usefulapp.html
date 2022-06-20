@@ -11,16 +11,59 @@
         <header class="headersleep" id="header" style="background-color: #CCD5AE; padding-bottom: 20px;";>
             <div class="iniHeader">
                 <h1 class="logo" id="logo"><a href="index.html">GoodviceMe</a></h1>  
-                <nav class="navigation" style="margin: 0 5px 0 20px; line-height: 20px;">
-                    <a href="aboutus.html">Notes</a>
-                    <a href="contact.html">Money</a>
-                    <a href="login.html">Sleep</a>
-                    <a href="signup.html">Usefull App</a>
-                    <a style="font-weight: bolder; color: #E7E5D9; background-color: #4B5330; padding: 0px 3px" href="#">Account</a>
+                <nav class="navigation" style="margin: 0 70px 0 5px; line-height: 20px;">
+                    <a href="notes.html">Notes</a>
+                    <a href="money.html">Money</a>
+                    <a href="sleep.html">Sleep</a>
+                    <a href="#" style="color: #7c8a50;">Useful App</a>
                 </nav>
             </div>
+            
         </header>
         <div class="isi" style="background-color: #FEFAE0;">
+            <div class="action" style="z-index: 50;">
+                <div class="profile">
+                    <img src="ellipse5.png" alt="profil" style="width: 100%;" onclick="menuToggle();">
+                </div>
+                <div class="menu">
+                    <div class="profile1">
+                        <img src="ellipse5.png" alt="profil" style="width: 40px; align-content: center; margin-left: 60px;" onclick="menuToggle();">
+                    </div>
+                    <h3>Dina Septy Puspayani <br>
+                        <span>User</span>
+                    </h3>
+                    <ul>
+                        <li><a href=#><i class="bi bi-person-circle">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#CCD5AE" viewBox="0 0 16 16">
+                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                            </svg>
+                        </i> <span>Profile</span></a></li>
+                        <li><a href=#><i class="bi bi-pen-fill">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#CCD5AE" class="bi bi-person-badge" viewBox="0 0 16 16">
+                                <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001z"/>
+                            </svg>
+                        </i> <span>Edit Profile</span></a></li>
+                        <li><a href=#><i class="bi bi-gear-fill">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#CCD5AE" class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
+                                <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"/>
+                            </svg>
+                        </i> Setting</a></li>
+                        <li><a href=#><i class="bi bi-info-circle-fill">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#CCD5AE" class="bi bi-chat-dots-fill" viewBox="0 0 16 16">
+                                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+                            </svg>
+                        </i> Help</a></li>
+                        <li><a href=index.html><i class="bi bi-box-arrow-left">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#CCD5AE" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0v2z"/>
+                                <path fill-rule="evenodd" d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z"/>
+                              </svg>
+                            </svg>
+                        </i> <span>Logout</span></a></li>
+                    </ul>
+                </div>
+            </div>
             <div class="container">
                 <div class="heading">
                   <h1 style="font-weight: bolder; font-size: 25px; color:#3a4125">Rekomendasi Aplikasi Buatmu</h1>
@@ -28,138 +71,105 @@
                 <div class="row">
                     <div class="card">
                         <div class="card-header">
-                        <h1>React</h1>
+                        <h1>Smallpdf</h1>
                         </div>
                         <div class="card-body">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo mollitia tempore reiciendis, vel, sequi.
+                            Alat untuk scan, edit, konversi, kompresi, gabung pdf, dan lain-lain <br><br><br>
                         </p>
-                        <a href="#" class="btn">Read more</a>
+                        <a href="https://smallpdf.com" class="btn">Read more</a>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-header">
-                            <h1>Vue</h1>
+                            <h1>WPS Office</h1>
                         </div>
                         <div class="card-body">
                             <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo mollitia tempore reiciendis, vel, sequi.
+                                Edit pdf, dokumen, excel, powerpoint, baca novel dan cerita gratis. <br><br><br>
                             </p>
-                            <a href="#" class="btn">Read more</a>
+                            <a href="https://photomath.com/enhttps://wps.com" class="btn">Read more</a>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-header">
-                            <h1>Angular</h1>
+                            <h1>Noteblock Scanner</h1>
                         </div>
                         <div class="card-body">
                             <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo mollitia tempore reiciendis, vel, sequi.
+                                Aplikasi Pemindai untuk menandai dokumen, kertas, gambar, dan pekerjaan rumah. Pindai dan buat PDF.
                             </p>
-                            <a href="#" class="btn">Read more</a>
+                            <a href="https://ipusnas.id" class="btn">Read more</a>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-header">
-                            <h1>JQuery</h1>
+                            <h1>Duolingo</h1>
                         </div>
                         <div class="card-body">
                             <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo mollitia tempore reiciendis, vel, sequi.
+                            Terhubung dengan orang orang, terhubung dengan peluang bekerja.<br><br><br>
                             </p>
-                            <a href="#" class="btn">Read more</a>
+                            <a href="https://duolingo.com" class="btn">Read more</a>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="card">
                         <div class="card-header">
-                        <h1>React</h1>
+                        <h1>Zoom</h1>
                         </div>
                         <div class="card-body">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo mollitia tempore reiciendis, vel, sequi.
+                            Zoom adalah aplikasi rapat dengan video HD dan berbagi layer hingga 100 orang.
                         </p>
-                        <a href="#" class="btn">Read more</a>
+                        <a href="https://zoom.us" class="btn">Read more</a>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-header">
-                            <h1>Vue</h1>
+                            <h1>Photomath</h1>
                         </div>
                         <div class="card-body">
                             <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo mollitia tempore reiciendis, vel, sequi.
+                            Solusi untuk soal detail matematika.<br><br><br>
                             </p>
-                            <a href="#" class="btn">Read more</a>
+                            <a href="https://photomath.com/en" class="btn">Read more</a>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-header">
-                            <h1>Angular</h1>
+                            <h1>iPusnas</h1>
                         </div>
                         <div class="card-body">
                             <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo mollitia tempore reiciendis, vel, sequi.
+                            Nikmati different koleksi buku Perpustakaan Nasional, kapanpun dan di manapun!
                             </p>
-                            <a href="#" class="btn">Read more</a>
+                            <a href="https://ipusnas.id" class="btn">Read more</a>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-header">
-                            <h1>JQuery</h1>
+                            <h1>LinkedIn</h1>
                         </div>
                         <div class="card-body">
                             <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo mollitia tempore reiciendis, vel, sequi.
+                            Terhubung dengan orang orang, terhubung dengan peluang bekerja.<br><br>
                             </p>
-                            <a href="#" class="btn">Read more</a>
+                            <a href="https://linkedin.com" class="btn">Read more</a>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="card">
                         <div class="card-header">
-                        <h1>React</h1>
+                        <h1>Forest</h1>
                         </div>
                         <div class="card-body">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo mollitia tempore reiciendis, vel, sequi.
+                            Kurangi kecanduan gadget, hindari distraksi, dan tingkatkan produktivitas Anda.
                         </p>
-                        <a href="#" class="btn">Read more</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header">
-                            <h1>Vue</h1>
-                        </div>
-                        <div class="card-body">
-                            <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo mollitia tempore reiciendis, vel, sequi.
-                            </p>
-                            <a href="#" class="btn">Read more</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header">
-                            <h1>Angular</h1>
-                        </div>
-                        <div class="card-body">
-                            <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo mollitia tempore reiciendis, vel, sequi.
-                            </p>
-                            <a href="#" class="btn">Read more</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header">
-                            <h1>JQuery</h1>
-                        </div>
-                        <div class="card-body">
-                            <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo mollitia tempore reiciendis, vel, sequi.
-                            </p>
-                            <a href="#" class="btn">Read more</a>
+                        <a href="https://forestapp.cc" class="btn">Read more</a>
                         </div>
                     </div>
                 </div>
@@ -226,7 +236,7 @@
             line-height: 40px;
             float: right;
             position: relative;
-            margin: 0 15px 0 50px;
+            margin: 0 50px 0 15px;
         }
         .navigation a {
             display: inline-block;
@@ -244,7 +254,96 @@
         .navigation a:hover {
             color: #7c8a50;
         }
-
+        .action {
+            position: fixed;
+            top: 20px;
+            right: 30px;
+        }
+        .action .profile {
+            position: relative;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .action .profile img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .menu {
+            z-index: 10;
+        }
+        .action .menu {
+            position: absolute;
+            top: 80px;
+            right: -10px;
+            z-index: 3;
+            padding: 10px 20px;
+            width: 200px;
+            background: #4B5330;
+            box-sizing: 0 5-x 25px rgba(0,0,0,0.1);
+            transition: 0.5s;
+            visibility: hidden;
+            opacity: 0;
+            z-index: 10;
+        }
+        .action .menu.active {
+            visibility: visible;
+            opacity: 1;
+            z-index: 100;
+            position: absolute;
+            display: block;
+        }
+        .action .menu::before {
+            content: '';
+            position: absolute;
+            width: 0px;
+        }
+        .action .menu h3 {
+            width: 100%;
+            text-align: center;
+            font-size: 18px;
+            padding: 20px 0;
+            font-weight: 500;
+            color: #E7E5D9;
+            line-height: 1.2em;
+        }
+        .action .menu h3 span {
+            font-size: 14px;
+            color: #FEFAE0;
+            font-weight: 400;
+        }
+        .action .menu ul li {
+            list-style: none;
+            padding: 10px 0;
+            /* display: flex; */
+            align-items: center;
+            justify-content: center;
+        }
+        .action .menu ul li img{
+            max-width: 20px;
+            margin-right: 10px;
+            opacity: 0.5;
+            transition: 0.5s;
+        }
+        .action .menu ul li:hover img {
+            opacity: 1;
+        }
+        .action .menu ul li a {
+            display: inline-block;
+            text-decoration: none;
+            color: #E7E5D9;
+            font-weight: 500;
+            transition: 0.5s;
+        }
+        .action .menu ul li:hover a {
+            color: #FEFAE0;
+        }
         .container {
         width: 90%;
         margin: 50px auto;
@@ -338,7 +437,11 @@
             width: 80%;
         }
         }
-        
-
     </style>
+    <script>
+        function menuToggle(){
+            const toggleMenu = document.querySelector('.menu');
+            toggleMenu.classList.toggle('active')
+        }
+    </script>
 </html>
